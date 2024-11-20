@@ -53,15 +53,4 @@ Further analysis could involve:
 - Applying time series models to forecast future ratings.
 - Comparing trends across different genres to identify broader patterns.
 
-## Usage
-To run the analysis, ensure you have the required libraries installed:
-
-```sh
-pip install pandas seaborn matplotlib
-```
-
-Load the dataset and execute the script to generate various visualizations that reveal trends and insights in the movie and TV industry.
-
-## License
-This project is open-source and available under the [MIT License](LICENSE).
 
