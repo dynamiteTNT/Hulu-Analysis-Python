@@ -1,56 +1,39 @@
-# Hulu-Analysis-Python
+# Project Overview
+This project provides an analysis of a dataset containing information about movies available on Hulu. The goal is to answer various questions regarding movie counts, specific release years, average ratings, genres, and more. The analysis includes both basic and intermediate-level insights about the movies, such as identifying the highest-rated movies, the distribution of IMDb ratings, and categorizing movies based on their ratings.
 
-## Project Overview
-This project analyzes IMDb ratings for different movie and TV genres over time using the Hulu dataset. The project focuses on visualizing trends and comparing genres to understand how average ratings have evolved. The analysis utilizes data visualization tools to explore relationships between genres and trends in media.
+# Dataset
+The dataset, referred to as `hulu_data_v2`, contains information about movies, including attributes such as `title`, `releaseYear`, `genres`, `imdbAverageRating`, and `imdbNumVotes`. The analysis focuses on these attributes to provide key insights about the movies available on Hulu.
 
-## Dataset
-The dataset contains information on movie and TV ratings, including:
-- **Release Year**: The year the content was released.
-- **Genres**: The genre of the movie or TV show (e.g., Drama, Comedy, Action).
-- **IMDb Average Rating**: The average IMDb rating for the content.
-- **Type**: The type of content (e.g., Movie or TV Show).
+# Key Insights
+1. **Total Number of Titles**: Calculated the total number of titles in the dataset.
 
-## Key Insights
+2. **Titles Released in a Specific Year**: Found all titles released in 1997.
 
-1. **Trend in Average IMDb Ratings for the Drama Genre Over Time**
-   - Drama genre ratings show changes over time, providing insights into viewer preferences.
+3. **Average IMDb Rating**: Calculated the average IMDb rating of all titles.
 
-2. **Comparison of Average Ratings for TV Shows vs. Movies Across Genres**
-   - TV shows and movies display different trends in ratings over time across various genres.
+4. **Number of Titles per Genre**: Counted how many titles belong to the genre "Drama".
 
-3. **Popularity Trend of the Action Genre Over the Decades**
-   - Action genre ratings reveal changes in popularity across different decades.
+5. **Highest Rated Titles**: Identified the titles with the highest IMDb rating.
 
-4. **Difference in IMDb Ratings Trends Between Animated and Live-Action Shows**
-   - Ratings for animated and live-action shows show distinct trends, highlighting differences in viewer preferences.
+6. **Distribution of IMDb Ratings**: Created a histogram showing the distribution of IMDb ratings.
 
-5. **Average Ratings for Romantic Movies Over the Last 50 Years**
-   - Romantic movie ratings over the last 50 years reflect evolving audience tastes.
+7. **Average Rating by Genre**: Calculated the average IMDb rating for each genre.
 
-6. **Top-Rated Genres by Decade**
-   - Highlights which genres were the most highly rated in each decade.
+8. **Titles with High Votes and Ratings**: Found titles with an IMDb rating above 8 and more than 500,000 votes.
 
-7. **Comparison of Documentaries to Other Genres Over Time**
-   - Documentary ratings are compared to other genres to understand viewer interest.
+9. **Number of Titles Released Each Year**: Created a bar chart showing the number of titles released each year.
 
-8. **Trend of Ratings for Horror Movies vs. Thrillers from 1960 to Present**
-   - A comparison between horror and thriller movie ratings from 1960 to the present reveals key differences in audience engagement.
+10. **Categorize Titles Based on Rating**: Created a new column called "RatingCategory" that classifies movies as "Excellent", "Good", or "Average".
+   
 
-9. **Average Ratings for Family Movies/Shows Across Generations**
-   - Ratings for family content are tracked across generations to understand shifts in popularity.
+# Tools and Libraries
+- **Python**: Programming language used for data analysis.
+- **Pandas**: Used for data manipulation and analysis.
+- **Matplotlib**: Used for visualizing data with charts and graphs.
+- **NumPy**: Used for numerical operations and calculations.
 
-10. **Correlation Between Release Year and Ratings in Sci-Fi Movies**
-    - Examines the correlation between release year and average ratings for sci-fi movies.
-
-## Tools and Libraries
-- **Python**: Data manipulation and analysis.
-- **Pandas**: Data cleaning and aggregation.
-- **Matplotlib & Seaborn**: Visualization of trends over time.
-
-## Future Work
-Further analysis could involve:
-- Quantifying the correlation between ratings and different features (e.g., genre, type).
-- Applying time series models to forecast future ratings.
-- Comparing trends across different genres to identify broader patterns.
-
+# Future Work
+- **Advanced Analysis**: Perform advanced analysis, such as sentiment analysis on movie reviews or predicting IMDb ratings using machine learning models.
+- **Extended Visualization**: Add more advanced visualizations like scatter plots or interactive dashboards to explore the data in depth.
+- **Improvement in Categorization**: Refine the categorization of movies to include more detailed classifications, such as audience age group or genre subtypes.
 
