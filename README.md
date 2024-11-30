@@ -2,7 +2,7 @@
 This project provides an analysis of a dataset containing information about movies available on Hulu. The goal is to answer various questions regarding movie counts, specific release years, average ratings, genres, and more. The analysis includes both basic and intermediate-level insights about the movies, such as identifying the highest-rated movies, the distribution of IMDb ratings, and categorizing movies based on their ratings.
 
 # Dataset
-The dataset, referred to as `hulu_data_v2`, contains information about movies, including attributes such as `title`, `releaseYear`, `genres`, `imdbAverageRating`, and `imdbNumVotes`. The analysis focuses on these attributes to provide key insights about the movies available on Hulu.
+The dataset, referred to as `hulu`, contains information about movies and shows, including attributes such as `title`, `releaseYear`, `genres`, `imdbAverageRating`, and `imdbNumVotes`. The analysis focuses on these attributes to provide key insights about the movies / shows available on Hulu.
 
 # Key Insights
 1. **Total Number of Titles**: Calculated the total number of titles in the dataset.
